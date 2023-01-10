@@ -1,0 +1,20 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.2.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "pretty": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/nightmare": "^2.10.6",
+    "nodemon": "^2.0.20"
+  }
+}
